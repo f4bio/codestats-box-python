@@ -6,6 +6,7 @@ on:
       - reenable-workflow
   schedule:
     - cron: "0 */3 * * *"
+  workflow_dispatch:
 jobs:
   update-gist:
     runs-on: ubuntu-latest
